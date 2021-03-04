@@ -1,0 +1,109 @@
+
+/**********************************************main**********************************************/
+
+main{
+	background-image: url(imagenes/Fondo.jpg);
+	box-sizing: border-box;
+	background-color: #A5C3E6;
+}
+
+
+.wa{
+	height: 80px;
+	padding-top: 20px;
+	display: center;
+	text-align: center;
+	color:black;
+	font-size: 20px;
+	font-weight: bold;
+	position: sticky;
+	top: 20px;
+}
+
+.terminossuscripcion{
+		background-color: none;
+		display: grid;
+		margin-left: 615px;
+		align-content: center;
+		font-weight: bold;
+		animation: animacionsuscripcion 2s infinite;
+}
+
+
+
+
+@keyframes animacionsuscripcion{	
+	from{
+		
+		background-color: $backgroundcolor-blog;
+	}
+
+	50%{
+		
+		background-color: white;
+	}
+
+	to{
+		background-color: $backgroundcolor-blog;
+	}
+
+}
+
+
+.blog5
+
+{
+	border: solid 2px black;
+	width: 300px;
+	display: grid;
+	justify-content: center;
+	
+}
+
+
+
+.blog{
+	background-color: none;
+	padding-top: 30px;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	justify-content:  space-evenly;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+.blog1{
+	@extend %formatoblogs;
+	background-color: $backgroundcolor-blog;
+}
+
+.blog2{
+	@extend %formatoblogs;
+	background-color: $backgroundcolor-blog;
+}
+
+.blog3{
+	@extend %formatoblogs;
+	background-color: $backgroundcolor-blog;
+}
+
+
+.blog4 {
+	@extend %formatoblogs;
+	background-color: $backgroundcolor-blog;
+}
+
+h5{
+	margin-right: 7px;
+	margin-left:7px;
+}
+
+.fotoblog{
+	padding-top: 7px;
+	display: grid;
+	justify-content: center;
+	padding-bottom: 7px;
+
+}

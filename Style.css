@@ -1,0 +1,402 @@
+
+*{
+	padding: 0px;
+	margin: 0px ;
+	font-family:  'Poppins', sans-serif;
+}
+
+
+
+.mainindex{
+	background-color: #1B2726;
+	box-sizing: border-box;
+	margin-bottom: 0px;
+	height: 1300px;
+}
+
+.mainquienessomos{
+	
+	background-color: #1B2726;
+	box-sizing: border-box;
+	margin-bottom: 0px;
+	height: 1600px;
+}
+
+.mainEresEmprendedoroArtesano{
+	
+	background-color: #1B2726;
+	box-sizing: border-box;
+	margin-bottom: 0px;
+	height: 850px;
+}
+
+.mainpromociones{
+
+	background-color: #1B2726;
+	box-sizing: border-box;
+	margin-bottom: 0px;
+	height: 550px;
+}
+
+.maincatalogo{
+
+	background-color: #1B2726;
+	box-sizing: border-box;
+	margin-bottom: 0px;
+	height: 850px;
+}
+
+.headerfoot{
+	background-color: #343D40;
+	box-sizing: border-box;
+	height: 350PX;
+}
+
+
+.headercatalogo{
+	height: 112.78px;
+}
+
+
+h1{
+	padding-top: 0px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 57px;
+	word-spacing: 3px;
+	text-align: center;
+	background-image: url("../Imagenes/fondotitulo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.container{
+	height: 80px;
+}
+
+ul{
+	list-style: none;
+	font-size: 0px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+li{
+	display: inline-block;
+	width: 18%;
+	font-size: 18px;
+	position: relative;
+}
+
+
+
+
+
+
+.fondotitulobr{
+	position: sticky;
+	display: inline;
+	padding-top: 96px;
+}
+
+.amarillo{
+	display: inline;
+	width: 50%;
+	background-color: yellow;
+	float: left;
+	color: transparent;
+	height: 3px;
+
+}
+
+.azul{
+	display: inline;
+	width: 25%;
+	background-color: blue;
+	float: left;
+	color: transparent;
+	height: 3px;
+
+}
+
+.rojo{
+	display: inline;
+	width: 25%	;
+	background-color: red;
+	float: left;
+	color: transparent;
+	height: 3px;
+
+}
+
+.wa{
+/*	height: 80px;
+	padding-top: 25px;*/
+	padding-top: 20px;
+	
+	/*margin-left: 300px;*/
+	display: center;
+	text-align: end;
+	color:#3BD602;
+	font-size: 20px;
+	font-weight: bold;
+	position: sticky;
+/*	top: 20px;*/
+	width: 200px;
+	animation: animacion 2s infinite;
+
+}
+
+@keyframes animacion{	
+	from{
+		
+		color: grey;
+	}
+
+	50%{
+		
+		color: #3BD602;
+	}
+
+	to{
+		color: grey;
+	}
+
+}
+
+
+
+
+
+.subtitulocatalogo	{
+	height: 100px;
+	padding-top: 80px;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+
+}
+
+.imagenes {
+	padding-top: 70px;
+	height: 460px;
+	list-style: none;
+	font-size: 0px;
+	text-align: center;
+	color: white;
+}
+
+.imagenes2 {
+	display: inline-block;
+}
+
+
+.ubicacion{
+	padding-top: 70px;
+	height: 400px;
+	padding-top: 3px;
+	text-align: center;
+}
+
+
+
+.encuentranos{
+	padding-top: 100px;
+	color: white;
+	text-align: center;
+	display: center;
+}
+
+
+
+.totalfoot{
+	padding-top: 0px;
+	display: grid;
+	grid-template-columns: 34% 33% 33%;
+}
+
+.foot{
+	height: 250px;
+	display:grid; 
+	grid-template-rows: 100px 50px;
+	grid-template-columns: 450px;
+	justify-content: center;
+	font-size: 12px;
+	font-weight: bold;
+	align-self: center;
+
+}
+
+.logofoot{
+	padding-left: 120px;
+	padding-right: 120px;
+	display: grid;
+	justify-content: center;
+	color: white;
+}
+
+
+.contacto{
+	height: 200px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 15px;
+	color: white;
+}
+
+.logosredes{
+	display: grid;
+	justify-content: center;
+	grid-template-rows: 10px;
+	grid-template-columns: 50px 50px 50px;
+}
+
+
+
+.Suscribirmeboxcatalogo{
+		color: white;
+
+}
+
+.terminossuscripcion{
+		background-color: none;
+		font-size: 8.5px;
+		
+}
+
+
+
+
+
+
+
+/************************************** index **************************************/
+
+
+/************************************** Catalogo ***********************************/
+
+
+	ol{
+		display: block-inline;
+		list-style: none;
+		font-size: 0px;
+		text-align: justify;	
+	}
+
+.barranav{
+
+	justify-content: center;
+}
+
+.carrusel{
+height: 450px;
+align-items: center;
+padding-top: 70px;
+}
+
+.contenedor{
+	align-items: center;
+
+}
+
+
+/************************************** promociones ********************************/
+
+
+.promocion{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	color: #3BD602;
+
+
+}
+
+.promocioninfo{
+	border: solid 2px white;
+
+}
+
+.promociondetalle{
+	color: black;
+	font-size: bold;
+}
+
+.promociondetalle1{
+	color: black;
+	font-size: bold;
+}
+
+
+/************************************** eres emprendedor ***************************/
+
+.emprende{
+	display: flex;
+	height: 700px;
+	justify-content: center;
+	flex-direction: row;
+	color: white;
+}
+
+.emprende1{
+	padding-top: 50px;
+	justify-content: center;
+	padding-left: 20px;
+	width: 300px;
+	justify-content: center;
+	font-weight: bold;
+	align-content: center;
+	color: yellow;
+}
+
+.emprende2{
+	padding-top: 50px;
+	justify-content: center;
+	padding-right: 150px;
+
+}
+
+/************************************** quienes somos ******************************/
+
+.totalblog{
+	padding-top: 50px;
+}
+
+.blog{
+	color: grey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: none;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	justify-content:  space-evenly;
+}
+
+.fullblog{
+	padding-top: 50px;
+}
+
+.blog6{
+	display: flex;
+	justify-content:center;
+	color: grey;
+	width: 300px
+
+}
+
+
+.blog1, .blog2, .blog3, .blog4,{
+	padding-top: 10px;
+	color: grey;
+	border: solid 2px white;
+	width: 300px;
+	background-color: grey;
+
+}

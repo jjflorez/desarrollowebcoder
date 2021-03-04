@@ -1,0 +1,268 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif; }
+
+.mainindex {
+  box-sizing: border-box;
+  background-color: #1B2726;
+  padding-bottom: 10px; }
+
+.mainquienessomos {
+  background-color: #1B2726;
+  box-sizing: border-box;
+  padding-bottom: 10px; }
+
+.mainEresEmprendedoroArtesano {
+  background-color: #1B2726;
+  box-sizing: border-box;
+  padding-bottom: 10px; }
+
+.mainpromociones {
+  background-color: #1B2726;
+  box-sizing: border-box;
+  margin-bottom: 0px; }
+
+.maincatalogo {
+  background-color: #1B2726;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  height: 850px; }
+
+.headerfoot {
+  background-color: #343D40;
+  box-sizing: border-box; }
+
+h1 {
+  padding-top: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 57px;
+  word-spacing: 3px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+ul {
+  list-style: none;
+  font-size: 0px;
+  text-align: center;
+  font-weight: bold; }
+
+li {
+  display: inline-block;
+  width: 18%;
+  font-size: 18px;
+  position: relative; }
+
+.amarillo {
+  display: inline;
+  width: 50%;
+  background-color: yellow;
+  float: left;
+  color: transparent;
+  height: 3px; }
+
+.azul {
+  display: inline;
+  width: 25%;
+  background-color: blue;
+  float: left;
+  color: transparent;
+  height: 3px; }
+
+.rojo {
+  display: inline;
+  width: 25%;
+  background-color: red;
+  float: left;
+  color: transparent;
+  height: 3px; }
+
+.wa {
+  padding-top: 20px;
+  display: center;
+  text-align: end;
+  color: #3BD602;
+  font-size: 20px;
+  font-weight: bold;
+  position: sticky;
+  width: 200px;
+  animation: animacion 2s infinite; }
+
+@keyframes animacion {
+  from {
+    color: grey; }
+  50% {
+    color: #3BD602; }
+  to {
+    color: grey; } }
+
+.subtitulocatalogo {
+  padding-top: 30px;
+  align-content: center;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: white; }
+
+.imagenes {
+  padding-top: 20px;
+  list-style: none;
+  font-size: 0px;
+  text-align: center;
+  color: white; }
+
+.imagenes2 {
+  display: inline-block; }
+
+.ubicacion {
+  padding-top: 70px;
+  padding-top: 3px;
+  text-align: center; }
+
+.encuentranos {
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+  display: center; }
+
+.totalfoot {
+  padding-top: 0px;
+  display: grid;
+  grid-template-columns: 34% 33% 33%; }
+
+.foot {
+  display: grid;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center; }
+
+.logofoot {
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  color: white; }
+
+.contacto {
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  vertical-align: center; }
+
+.logosredes {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50px 50px 50px; }
+
+.Suscribirmeboxcatalogo {
+  color: white; }
+
+.terminossuscripcion {
+  background-color: none;
+  font-size: 8.5px; }
+
+.separadorfoot {
+  font-weight: bold;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  color: white; }
+
+/************************************** index **************************************/
+/************************************** Catalogo ***********************************/
+ol {
+  display: block-inline;
+  list-style: none;
+  font-size: 0px;
+  text-align: justify; }
+
+.barranav {
+  justify-content: center; }
+
+.carrusel {
+  height: 450px;
+  align-items: center;
+  padding-top: 70px; }
+
+.contenedor {
+  align-items: center; }
+
+/************************************** promociones ********************************/
+.promocion {
+  display: grid;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  color: #3BD602; }
+
+.promocioninfo {
+  border: solid 2px white; }
+
+.promociondetalle {
+  color: black;
+  font-size: bold; }
+
+.promociondetalle1 {
+  color: black;
+  font-size: bold; }
+
+/************************************** eres emprendedor ***************************/
+.emprende {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: white; }
+
+.emprende1 {
+  justify-content: center;
+  padding-left: 20px;
+  width: 300px;
+  justify-content: center;
+  font-weight: bold;
+  align-content: center;
+  color: yellow; }
+
+.emprende2 {
+  justify-content: center;
+  padding-right: 250px;
+  padding-left: 250px; }
+
+/************************************** quienes somos ******************************/
+.totalblog {
+  padding-top: 50px; }
+
+.blog {
+  color: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: none;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-evenly; }
+
+.fullblog {
+  padding-top: 30px; }
+
+.blog6 {
+  display: flex;
+  justify-content: center;
+  color: grey;
+  width: 300px; }
+
+.blog1, .blog2, .blog3, .blog4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: grey;
+  border: solid 2px white;
+  width: 300px;
+  background-color: grey; }

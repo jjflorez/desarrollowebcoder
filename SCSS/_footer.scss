@@ -1,0 +1,64 @@
+
+
+/**********************************************Foot**********************************************/
+
+
+
+
+footer{
+
+	background-image: url("imagenes/Fondo2.jpg");
+	background-color: #D98F8B;
+}
+
+
+
+.totalfoot{
+	padding-top: 0px;
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+.foot{
+	height: 150px;
+	display:grid; 
+	grid-template-rows: 100px 50px;
+	grid-template-columns: 450px;
+	justify-content: center;
+	font-size: 12px;
+	font-weight: bold;
+	align-self: center;
+
+}
+
+
+
+
+.contacto{
+	height: 80px;
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+
+.logosredes{
+	margin-left: 150px;
+	display: grid;
+	align-content: center;
+	height: 0px;
+	grid-template-rows: 10px;
+	grid-template-columns: 50px 50px 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

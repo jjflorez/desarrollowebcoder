@@ -1,0 +1,45 @@
+
+
+/**********************************************Header**********************************************/
+
+header{
+	background-image: url(imagenes/Fondo2.jpg);
+	box-sizing: border-box;
+	background-color: #F2F2A2;
+
+}
+
+h1{
+	padding-top: 0px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 57px;
+	word-spacing: 3px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+
+.container{
+	height: 80px;
+}
+
+nav{
+	ul{
+		list-style: none;
+		font-size: 0px;
+		text-align: center;
+		font-weight: bold;
+		
+			li{
+				display: inline-block;
+				width: 18%;
+				font-size: 18px;
+				position: relative;
+			}
+	}
+}
+
